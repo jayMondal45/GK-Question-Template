@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans Bengali", serif;
+    background-color: #f5f5f5;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 768px;
+    margin: auto;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #999;
+}
+
+.header_full{
+    width: 100%;
+    background-color: #0865FE;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+.header_row{
+    padding: 0px;
+}
+
+.header_logo{
+    width: 100%;
+    padding: 0px;
+}
+
+.header_content{
+    width: 100%;
+    padding: 0px;
+}
+
+.header_content h1{
+    font-size: 58px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 21px 0px;
+    line-height: 1;
+}
+
+.header_content h1 span{
+    color: #FEFF66;
+}
+
+.part_box{
+    width: 100%;
+    background-color: #FEFF66;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    padding: 21px 8px;
+}
+
+.part_box h1{
+    font-size: 49px;
+    color: #000;
+    font-weight: bold;
+}
+
+.question_body{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.right_border{
+    border-right: 2px solid #B81F21;
+}
+
+.question_box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.question_box h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.question_box h5 span{
+    color: #B81F21;
+    padding-right: 8px;
+}
+
+.question_box h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A744B;
+}
+
+.question_box h6 span{
+    padding-right: 8px;
+}
+
+.footer_box{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #0865FE;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+}
+
+.footer_box p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0px;
+}
+
+.update{
+    padding: 0px;
+}
+
+.facebook{
+    padding: 0px;
+}
+
+.facebook_box{
+    width: 34px;
+    border: 2px solid #fff;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.facebook_box a{
+    display: block;
+}
+
+.facebook_box a i{
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.facebook_box:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.facebook_box:hover a i{
+    color: #0865FE;
+}
+
+@media (max-width:575px){
+    main{
+        width: 100%;
+    }
+    .header_content h1{
+        font-size: 28px;
+    }
+    .part_box{
+        padding: 22px 0px;
+    }
+    .part_box h1{
+        font-size: 22px;
+    }
+    .right_border{
+        border: 0px;
+    }
+    .facebook{
+        margin: 8px 0px;
+        margin-left: 15px;
+    }
+}
